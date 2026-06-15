@@ -21,7 +21,8 @@
     },
     "@storm-software/workspace-tools/plugins/typescript",
     "@storm-software/workspace-tools/plugins/typescript/untyped",
-    "@storm-software/workspace-tools/plugins/typescript/tsdown"
+    "@storm-software/workspace-tools/plugins/typescript/tsdown",
+    "@powerlines/nx/plugin"
   ],
   "sync": {
     "applyChanges": true,

@@ -11,6 +11,9 @@ catalog:
   "@nx/vite": 22.7.5
   "@nx/vitest": 22.7.5
   "@nx/workspace": 22.7.5
+  "@powerlines/nx": ^0.13.176
+  "@powerlines/tsconfig": ^0.4.186
+  "@powerlines/tsdoc": ^0.2.134
   "@storm-software/config": ^1.138.6
   "@storm-software/config-tools": ^1.190.69
   "@storm-software/cspell": ^0.46.137
@@ -45,9 +48,9 @@ catalog:
   vitest: ~4.1.8
   zx: ^8.8.5
 overrides:
-  "@monorepo-template/tools-config": workspace:*
-  "@monorepo-template/tools-scripts": workspace:*
-  "@monorepo-template/tools-cspell": workspace:*
+  "@powerlines-monorepo-template/tools-config": workspace:*
+  "@powerlines-monorepo-template/tools-scripts": workspace:*
+  "@powerlines-monorepo-template/tools-cspell": workspace:*
   cookie: ">=0.7.0"
   debug: ">=4.4.0"
   follow-redirects: ">=1.15.9"

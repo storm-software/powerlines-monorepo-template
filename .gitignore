@@ -9,10 +9,9 @@ tmp
 /out-tsc
 out
 .nx
-**/.storm
-# \!examples/**/.storm
 
-# build
+powerlines.d.ts
+.powerlines
 
 # dependencies
 node_modules

@@ -1,11 +1,11 @@
 {
-  "name": "@monorepo-template/monorepo",
+  "name": "@powerlines-monorepo-template/monorepo",
   "version": "0.0.1",
   "type": "module",
   "description": "⚡ A monorepo containing TypeScript utility packages with shared functionality common to many Storm Software applications.",
   "repository": {
     "type": "github",
-    "url": "https://github.com/storm-software/monorepo-template.git"
+    "url": "https://github.com/storm-software/powerlines-monorepo-template.git"
   },
   "homepage": "https://stormsoftware.com",
   "bugs": {
@@ -28,7 +28,12 @@
     "node": ">=26.3.0",
     "pnpm": ">=11.1.2"
   },
-  "keywords": ["storm-software", "template", "github-template", "monorepo"],
+  "keywords": [
+    "storm-software",
+    "template",
+    "github-template",
+    "monorepo"
+  ],
   "scripts": {
     "adr": "pnpm log4brains adr new",
     "adr-preview": "pnpm log4brains preview",
@@ -63,6 +68,9 @@
     "@nx/vite": "catalog:",
     "@nx/vitest": "catalog:",
     "@nx/workspace": "catalog:",
+    "@powerlines/nx": "catalog:",
+    "@powerlines/tsconfig": "catalog:",
+    "@powerlines/tsdoc": "catalog:",
     "@storm-software/config": "catalog:",
     "@storm-software/config-tools": "catalog:",
     "@storm-software/cspell": "catalog:",
@@ -100,7 +108,7 @@
     "defaultBranch": "main",
     "workspaceProtocol": "require"
   },
-  "namespace": "@monorepo-template",
+  "namespace": "@powerlines-monorepo-template",
   "nx": {
     "includedScripts": [
       "lint-knip",

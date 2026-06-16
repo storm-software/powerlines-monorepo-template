@@ -22,5 +22,8 @@ Error.stackTraceLimit = Number.POSITIVE_INFINITY;
 
 /** @type {import('eslint').Linter.Config[]} */
 export default getStormConfig({
-  name: "powerlines-monorepo-template"
+  name: "powerlines-monorepo-template",
+  tsdoc: {
+    configFile: "@powerlines/tsdoc/recommended.json"
+  }
 });
